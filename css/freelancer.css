@@ -42,3 +42,49 @@ header span {
     padding: 1rem 0 1rem 0;
     cursor: pointer;
 }
+
+.fondo {
+    width: 100%;
+    background-image:url(../img/hero.jpg);
+    height: 20rem;
+}
+
+.container-fondo {
+    
+    background-color: rgba(0, 0, 0, .75);
+    height: 20rem;
+}
+
+.container-fondo h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--backgraound);
+    padding: 3rem 0 1rem 0;
+}
+
+.degrade {
+    background-color: var(--black);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.location p {
+    padding-top: 1.5rem;
+    color: var(--white);
+    font-size: 1.2rem;
+}
+
+.contact-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--white);
+    font-size: 1.5rem;
+    background-color: var(--celeste);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+
+}
