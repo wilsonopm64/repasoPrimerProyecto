@@ -112,7 +112,11 @@ header span {
 }
 
 .service-container {
-    display: block;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
 }
 
 .service-container h4{
@@ -122,16 +126,13 @@ header span {
 }
 
 .iconos {
-    background-color: var(--amarillo);
-    width: 15%;
-    display: inline-block;
-    margin: 0 auto 0 auto;
-    
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--amarillo);
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.iconos svg {
-    display: inline-block;
-    text-align: center;
-}
-.container-iconos {
-    display: block;
-}
+
+
