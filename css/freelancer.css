@@ -216,3 +216,7 @@ header span {
     color: var(--white);
     border-radius: 1rem;
  }
+
+ footer {
+    text-align: center;
+ }
